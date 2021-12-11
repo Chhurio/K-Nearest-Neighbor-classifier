@@ -8,5 +8,6 @@ The following are the results of running searches on different datasets:
 
 # Forward Selection Search
 
-For Ver_2_CS170_Fall_2021_Small_data__93.txt:  
+This is a bar graph showing the accuracy versus the amount of features added for data in Ver_2_CS170_Fall_2021_Small_data__93.txt. Features were added in this order: {1, 5, 6, 8, 10, 7, 2, 3, 9, 4}  
 ![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/smallforward.png "Accuracies for forward selection on small dataset")
+
