@@ -23,12 +23,12 @@ This is a bar graph showing the accuracy as features get removed in the backward
 ![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/largebackward.png "Accuracies for backward elimination on large dataset")
 
 # Sample code output
-For forward selection on large dataset:  
+**For forward selection on large dataset:**  
 ![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/largeforwardoutput1.png "Output for forward selection on large dataset")  
 Many lines of output omitted to save space here  
 ![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/largeforwardoutput2.png "Output for forward selection on large dataset")  
 
-For backward elimination on large dataset:  
+**For backward elimination on large dataset:**  
 ![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/largebackwardoutput0.png "Output for backward elimination on large dataset")  
 Some lines of input are omitted to save space here  
 ![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/largebackwardoutput1.png "Output for backward elimination on large dataset")  
