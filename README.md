@@ -19,5 +19,18 @@ This is a bar graph showing the accuracy as features get added in the forward se
 This is a bar graph showing the accuracy versus the amount of features removed for data in Ver_2_CS170_Fall_2021_Small_data__93.txt. Features were removed in this order: {4, 9, 7, 10, 6, 3, 2, 8, 1, 5}. Highest accuracy was set {1, 5} with accuracy 96.8%.  
 ![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/smallbackward.png "Accuracies for backward elimination on small dataset")
 
-This is a bar graph showing the accuracy as features get removed in the backward elimination search for the Ver_2_CS170_Fall_2021_LARGE_data__29.txt file. Highest accuracy was set {} with accuracy 85.45%. Note: This strange output is due to useful features like feature 10 getting removed from the dataset early on which made overall accuracy of the solution much lower. I only put the features removed in multiples of 5 because the graph would been too big otherwise and none of the sets searched had an accuracy higher than the one found in forward selection(set {46, 10} with accuracy 97.5%).  
+This is a bar graph showing the accuracy as features get removed in the backward elimination search for the Ver_2_CS170_Fall_2021_LARGE_data__29.txt file. Highest accuracy was set {} with accuracy 85.45%. Note: This strange output is due to useful features like feature 10 getting removed from the dataset early on which made overall accuracy of the solution much lower. I only put the features removed in multiples of 5 because the graph would been too big otherwise and none of the sets searched had an accuracy higher than the one found in forward selection(set {46, 10} with accuracy 97.5%). Although backward elimination didn't work too well for this particular dataset, if there was a dataset with many features that are highly correlated, it would perform much better.  
 ![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/largebackward.png "Accuracies for backward elimination on large dataset")
+
+# Sample code output
+For forward selection on large dataset:  
+![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/largeforwardoutput1.png "Output for forward selection on large dataset")
+Many lines of output omitted to save space here  
+![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/largeforwardoutput2.png "Output for forward selection on large dataset")
+
+For backward elimination on large dataset:  
+![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/largebackwardoutput0.png "Output for backward elimination on large dataset")
+Some lines of input are omitted to save space here  
+![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/largebackwardoutput1.png "Output for backward elimination on large dataset")
+Many lines of output omitted to save space here  
+![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/largebackwardoutput2.png "Output for backward elimination on large dataset")
