@@ -8,5 +8,5 @@ The following are the results of running searches on different datasets:
 
 # Forward Selection Search
 
-For Ver_2_CS170_Fall_2021_Small_data__93.txt:
+For Ver_2_CS170_Fall_2021_Small_data__93.txt:  
 ![alt text](https://github.com/Chhurio/K-Nearest-Neighbor-classifier/blob/main/images/smallforward.png "Accuracies for forward selection on small dataset")
